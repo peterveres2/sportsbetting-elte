@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+#menu {
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: 2px;
+	color: #777;
+	display: block;
+	max-width: 80%;
+	margin: 1em auto;
+}
+
+
+h2 {
+	font-weight: bolder;
+	font-size: 110%;
+}
+
+.menu-item:hover {
+	background: #e5f3ff;
+	color: #428bca;
+}
+
+#menu div {
+	display: inline-block;
+	padding: 1em;
+}
+
+#logout {
+	float: right;
+}
+
+.menu-item.active {
+	background-color: #e7e7e7;
+}
+
+.input-with-label {
+	box-sizing: border-box;
+	width: 100%;
+	margin: 0.5em 0;
+	border-color: #ddddff;
+	border-radius: 0.5em;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.box, #menu {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input, select{
+	border: none;
+	font-size: 93%;
+	display: inline-block;
+	outline: none;
+}
+
+input {
+	max-height: 1em;
+}
+
+tr, td, th, input, select, label {
+	padding: 0.7em;
+}
+
+label {
+	display: inline-block;
+	background-color: #eee;
+}
+
+.input-with-label::after {
+	content: "";
+	display: block;
+	visibility: hidden;
+	height: 0;
+	clear: both;
+}
+
+.input-with-label:hover {
+	border-color: #428bca;
+}
+
+main, header {
+	padding: 0;
+}
+
+table {
+	width: 100%;
+}
+
+td, th {
+	text-align: left;
+	height: 2em;
+	vertical-align: middle;
+}
+
+th {
+	font-weight: bold;
+}
+
+tr + tr {
+	border-top: solid #eee;
+}
+
+td button, #wagerButton {
+	padding: 0.2em;
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+#input-tr {
+	background-color: #eee;
+}
+
+[ng\:cloak], [ng-cloak], .ng-cloak {
+      display: none;
+}
+
+@media screen and (max-width: 1530px) {
+	.box, #menu {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	#menu div {
+		display: block;
+	}
+	#logout {
+		float: none;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	label {
+		display: block;
+	}
+}

@@ -1,0 +1,10 @@
+[
+	{
+		"description" : "Fradi wins",
+		"odd" : {"oddValue":3,"validFrom":"2018-02-08T20:30:57.255Z","validTo":"2018-02-08T20:30:57.255Z"}
+	},
+	{
+		"description" : "3 goals",
+		"odd" : {"oddValue":1.2,"validFrom":"2018-02-08T20:30:57.255Z","validTo":"2018-02-08T20:30:57.255Z"}
+	}
+]

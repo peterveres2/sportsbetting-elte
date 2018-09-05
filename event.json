@@ -1,0 +1,20 @@
+{
+	"eventTitle" : "Honved - Videoton",
+	"eventType" : "FOOTBALL",
+	"start" : "2018-01-31T20:30:57.255Z",
+	"end" : "2017-01-31T22:30:57.255Z",
+	"bets" : [
+		{
+			"description":"Honved - Vidi win bet",
+			"type":"WIN_BET",
+			"outcomes":[{
+				"description" : "Honved wins",
+				"odd" : {
+					"oddValue":3,
+					"validFrom":"2018-01-31T20:30:57.255Z",
+					"validTo":"2017-01-31T22:30:57.255Z"
+						}}
+			]
+		}
+	]
+}
