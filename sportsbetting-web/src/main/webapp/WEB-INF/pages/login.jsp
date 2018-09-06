@@ -31,8 +31,8 @@
 		<section id="userinfo" class="box-content">
 			<form ng-submit="attempt()">
 			<fieldset>
-			<input type="text" ng-model="credits.username" placeholder=<spring:message code="login.username" />></input>Please provide your name.<br />
-			<input type="password" ng-model="credits.password" placeholder=<spring:message code="login.password" />></input>Please provide your password.<br />
+			<input type="text" ng-model="credits.username" placeholder=<spring:message code="login.username" />></input>!!!Please provide your name.<br />
+			<input type="password" ng-model="credits.password" placeholder=<spring:message code="login.password" />></input>!!!Please provide your password.<br />
 			<div class="warning" ng-show="error"><spring:message code="login.wrongcredential" /></div>
 			<button id="login-button" ng-disabled="isDisabled" ng-click="disableButton()"><spring:message code="login.login" /></button>
 			</fieldset>
