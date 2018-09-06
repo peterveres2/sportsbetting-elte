@@ -82,4 +82,16 @@
 		<module>sportsbetting-domain</module>
 		<module>sportsbetting-repositories</module>
 	</modules>
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>EPHUBUDW0224-releases</name>
+        <url>http://localhost:8081/artifactory/test</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>EPHUBUDW0224-snapshots</name>
+        <url>http://localhost:8081/artifactory/test</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
